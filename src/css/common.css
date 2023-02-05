@@ -16,3 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
+.wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.value {
+  font-weight: 700;
+  font-size: 25px;
+}
