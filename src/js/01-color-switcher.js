@@ -10,9 +10,9 @@ function getRandomHexColor() {
 }
 
 function colorBgChange() {
+	buttonStart.disabled = true;
 	timerId = setInterval(() => {
 		return document.body.style.backgroundColor = getRandomHexColor();}, 1000);
-	buttonStart.disabled = true;
 }
 
 function blocColorBgChange() {
